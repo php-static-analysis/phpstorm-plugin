@@ -1,4 +1,4 @@
-package com.github.carlosgranados.phpstormplugin
+package com.github.php_static_analysis.phpstorm_plugin
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,4 +1,4 @@
-package com.github.carlosgranados.phpstormplugin.toolWindow
+package com.github.php_static_analysis.phpstorm_plugin.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.carlosgranados.phpstormplugin.MyBundle
-import com.github.carlosgranados.phpstormplugin.services.MyProjectService
+import com.github.php_static_analysis.phpstorm_plugin.MyBundle
+import com.github.php_static_analysis.phpstorm_plugin.services.MyProjectService
 import javax.swing.JButton
 
 

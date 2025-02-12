@@ -1,4 +1,4 @@
-package com.github.carlosgranados.phpstormplugin.listeners
+package com.github.php_static_analysis.phpstorm_plugin.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

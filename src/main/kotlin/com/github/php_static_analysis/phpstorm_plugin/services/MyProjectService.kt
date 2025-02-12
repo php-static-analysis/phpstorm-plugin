@@ -1,9 +1,9 @@
-package com.github.carlosgranados.phpstormplugin.services
+package com.github.php_static_analysis.phpstorm_plugin.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.carlosgranados.phpstormplugin.MyBundle
+import com.github.php_static_analysis.phpstorm_plugin.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {
