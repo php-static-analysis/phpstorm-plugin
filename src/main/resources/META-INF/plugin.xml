@@ -6,13 +6,13 @@
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <resource-bundle>messages.PhpStaticAnalysisBundle</resource-bundle>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.php_static_analysis.phpstorm_plugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-    </extensions>
+<!--    <extensions defaultExtensionNs="com.intellij">-->
+<!--        <toolWindow factoryClass="com.github.php_static_analysis.phpstorm_plugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>-->
+<!--    </extensions>-->
 
-    <applicationListeners>
-        <listener class="com.github.php_static_analysis.phpstorm_plugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
-    </applicationListeners>
+<!--    <applicationListeners>-->
+<!--        <listener class="com.github.php_static_analysis.phpstorm_plugin.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>-->
+<!--    </applicationListeners>-->
 </idea-plugin>

@@ -4,8 +4,8 @@ import org.jetbrains.intellij.platform.gradle.TestFrameworkType
 
 plugins {
     id("java") // Java support
-    alias(libs.plugins.kotlin) // Kotlin support
-    alias(libs.plugins.intelliJPlatform) // IntelliJ Platform Gradle Plugin
+    kotlin("jvm") version "2.1.10"// Kotlin support
+    id("org.jetbrains.intellij.platform") version "2.2.1"
     alias(libs.plugins.changelog) // Gradle Changelog Plugin
     alias(libs.plugins.qodana) // Gradle Qodana Plugin
     alias(libs.plugins.kover) // Gradle Kover Plugin
@@ -43,7 +43,6 @@ dependencies {
         // Plugin Dependencies. Uses `platformPlugins` property from the gradle.properties file for plugin from JetBrains Marketplace.
         plugins(providers.gradleProperty("platformPlugins").map { it.split(',') })
 
-        instrumentationTools()
         pluginVerifier()
         zipSigner()
         testFramework(TestFrameworkType.Platform)
